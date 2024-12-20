@@ -1,5 +1,4 @@
 import pyfiglet
-
 def print_banner():
     banner = pyfiglet.figlet_format("Community Library")
     print(banner)
@@ -15,6 +14,7 @@ Book_list = [
     {"title": "Karingana Ua Karingana", "author":"José Craveirinha"},
     {"title": "The Return Of The Caravels", "author": "António Lobo Antunes"},
     {"title": "Sleepwalking Land", "author": "Mia Couto"}
+#all this book list is a part of my Portuguese book collection
 ]
 def book_management_menu():
     while True:
@@ -141,6 +141,6 @@ def main_menu():
                 print("Exiting...")
                 break
             case _:
-                print("Invalid option, please try agin.")
+                print("Invalid option, please try again.")
 if __name__ == "__main__":
     main_menu()
